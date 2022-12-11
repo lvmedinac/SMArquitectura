@@ -1,0 +1,240 @@
+body{
+    background-color: darkgray;
+    text-align: center;
+    font-family: sans-serif;
+    color: #000;
+}
+
+
+#logo_pe{
+    height: 70px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+nav{
+    width: 100%;
+    background-color: #f7f7f7;
+    display: inline-flex;
+    /*position: fixed;*/
+}
+
+#list_serv{
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+#socialicons{
+    margin-top: 25px;
+    height: 30px;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+#spa_men{
+    height: 15%;
+}
+
+#portada{
+    width: 100%;
+}
+
+.space_serv{
+    margin-top: 5%;
+}
+
+#arriba{
+    width: 15%;
+    height: auto;
+}
+
+.ir-arriba {
+	display: flex;
+    width: 100%;
+	font-size:20px;
+	cursor:pointer;
+	position: fixed;
+	bottom:16%;
+    justify-content: end;
+}
+
+.footerge{
+    background-color: gray;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+#footerid{
+    display: flex;
+    text-align: left;
+    margin-left: 610px;
+}
+
+h3{
+    background-color: rgb(82, 81, 81);
+}
+
+#footersection{
+    list-style-type: none;
+}
+
+#footerpoli{
+    display: flex;
+    list-style-type: none;
+    margin-left: 725px;
+}
+
+#namef{
+    margin-right: 70px;
+}
+
+#yearf{
+    margin-right: 70px;
+}
+
+#socialiconsf{
+    background-color: transparent;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#galery{
+    width: 55%;
+    height: 80%;
+}
+
+li a{
+    color: black;
+    text-decoration: none;    
+}
+a:hover{
+    color: rgb(44, 44, 44);
+}
+
+.contact_form{ 
+    margin-bottom: 5%;
+    width: 90%; 
+    height: auto;
+    margin-left: 5%;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 50px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    text-align: left;
+    margin-top: 5%;
+}
+
+#space_form{
+    margin-top: 6%;
+    text-align: center;
+}
+
+#center_text{
+    text-align: center;
+}
+.target_form{
+    border-radius: 10px; 
+    background-color: #dadada;
+    margin-top: 1%;
+} 
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    margin-left: 20%;
+    justify-content: center;
+}
+
+.button_form{
+    height: 40px;
+    width: 180px; 
+    text-transform: uppercase;
+    background-color: gray; 
+    border-color: #000; 
+    border-style: solid; 
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%    
+}
+.form-label {
+    margin-bottom: 0;
+}
+
+.form_space{
+    padding: 2%;
+}
+
+textarea{
+    height: 130px;
+    resize: none;
+}
+
+#parrafo_nosotros{
+    display: grid;
+}
+#nos{
+    display: block;
+    text-align: justify;
+    margin: 0px 100px 0px 100px;
+}
+
+.nos_complete{
+    display: none;
+    text-align: justify;
+    margin: 0px 100px 10px 100px;
+}
+.more{
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+#video_nos{
+    width: 700px;
+    height: 500px;
+
+}
+
+#breadcrumb{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: large;
+}
+
+.swiper {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-prev::after{
+    color: #000;
+}
+
+.swiper-button-next::after{
+    color: #000;
+}
+
+.swiper-pagination-bullet{
+
+    background-color: #000 !important;
+}
+
+#space_menu{
+    margin-right: 15px;
+
+}
+    

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SMArquitectura</title>
+        <link rel="icon" href="./assets/logo_peque.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo_pe" src="assets/logo.jpeg" alt="">
+                <ul id="list_serv">
+                    <li id="space_menu">Diseño Arquitectónico</li>
+                    <li id="space_menu">Diseño de Interiores</li>
+                    <li id="space_menu">Construcción</li>
+                    <li id="space_menu">Reformas</li>
+                    <li id="space_menu">Urbanismo</li>
+                    <li id="space_menu">Renderizado</li>
+                    <li id="space_menu">Visualización de Proyectos</li>
+                    <li id="space_menu"><a href="./modelado3d.html">Modelado 3D</a></li>
+                    <li id="space_menu">Recorridos Virtuales</li>
+                </ul>
+                <img id="socialicons" src="assets/whatsapp.png" alt="">
+            </nav>
+            <div id="breadcrumb" >
+                <li><a href="./index.html">Regresar al Inicio</a></li>
+            </div>
+
+        </header>
+        <main>
+            <div class="row col-12 was-validation contact_form">
+                <div class="col-6 location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63458.36994847538!2d-75.61623098297716!3d6.2442022928837115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1670431872816!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class=" target_form col-4">      
+                  <h1 id="space_form">Formulario de contacto</h1>
+                  <h5 id="center_text">Escríbenos y en breve nos pondremos en contacto contigo</h5>
+                    <form class="formulario col-8 needs-validation" novalidate>
+                        <div class="form_space">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name"  required>
+                            <div class="valid-feedback">
+                                continua!
+                            </div>
+                        </div>
+                        <div class="form_space">
+                            <label for="phone" class="form-label">Celular</label>
+                            <input type="tel" pattern="[0-9]{10}" class="form-control" id="phone"  required>
+                            <div class="valid-feedback">
+                                continua!
+                            </div>
+                        </div>
+                        <div class="form_space">
+                            <label for="email" class="form-label">Correo</label>
+                            <input type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" class="form-control" id="email" required>
+                            <div class="invalid-feedback">
+                                ingresa tu correo.
+                            </div>
+                        </div>                        
+                        <div class="form_space">
+                            <label for="city" class="form-label">Ciudad</label>
+                            <select class="form-select" id="city" required>
+                                <option selected disabled value="">Elige tu ciudad...</option>
+                                <option value="1">Medellin</option>
+                                <option value="1">Rionegro</option>
+                                <option value="1">Caldas</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                alige una ciudad.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Mensaje</label>
+                            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                              Dejanos tu mensaje.
+                            </div>
+                          </div>
+                        <div class="form_space">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                No soy un robot
+                                </label>
+                                <div class="invalid-feedback">
+                                    Debes confirmar que no eres un robot.
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="button_form" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>                                                        
+        </main>
+
+
+        <footer class="footerge">
+            <div id="footersection">
+                <h3>Nuestras Secciones</h3>
+            </div>
+            <div id="footerid">
+                <div>
+                    <ul id="footersection">
+                        <li>Diseño Arquitectónico</li>
+                        <li>Diseño de Interiores</li>
+                        <li>Construcción</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul id="footersection">
+                        <li>Reformas</li>
+                        <li>Urbanismo</li>
+                        <li>Renderizado</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul id="footersection" >
+                        <li>Visualización de Proyectos</li>
+                        <li><a href="./modelado3d.html">Modelado 3D</a></li>
+                        <li>Recorridos Virtuales</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul id="footersection">
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./index.html">Inicio</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="footerpoli">
+                <h4 id="namef">SM Arquitectura</h4>
+                <h5 id="yearf">© 2022</h5>
+                <a href="https://www.instagram.com/lmaarquitectura2021/">
+                    <img id="socialiconsf" src="assets/instagram.png" alt="">
+                </a>
+                <a href="https://www.facebook.com/LMAArquitectura2021">
+                    <img id="socialiconsf" src="assets/facebook.png" alt="">
+                </a>
+            </div>
+
+        </footer>
+
+        <script src="./scripts/anime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>
